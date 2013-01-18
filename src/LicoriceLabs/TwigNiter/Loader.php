@@ -10,8 +10,8 @@ class Loader extends \CI_Loader
     {
         call_user_func_array(array('parent',__FUNCTION__), func_get_args());
 
-        $this->twig_loader = new Twig_Loader_Filesystem(array_keys($this->_ci_view_paths));
-        $this->twig = new Twig_Environment($this->twig_loader);
+        $this->twig_loader = new \Twig_Loader_Filesystem(array_keys($this->_ci_view_paths));
+        $this->twig = new \Twig_Environment($this->twig_loader);
 
     }
 
