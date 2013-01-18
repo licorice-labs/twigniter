@@ -1,6 +1,8 @@
 {
     "name": "licorice-labs/twigniter",
     "description": "Twig templating for CodeIgniter",
+    "keywords": ["twig", "codeigniter"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Wing Lian",
@@ -13,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            ""LicoriceLabs\\TwigNiter": "src/"
+            "LicoriceLabs\\TwigNiter": "src/"
         }
     },
     "minimum-stability": "dev"
