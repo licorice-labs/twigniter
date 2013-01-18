@@ -1,7 +1,11 @@
 # TwigNiter
-Twig templating for CodeIgniter
+Twig templating for CodeIgniter made simple 
+
+See https://github.com/winglian/appstrap for example implementation.
 
 # Installing
 
-TODO [composer.json]
-TODO [extend with MY_Loader]
+In your composer.json, require:
+    "licorice-labs/twigniter": "dev-master"
+
+Copy application/core/MY_Loader.php to your CodeIgniter application
